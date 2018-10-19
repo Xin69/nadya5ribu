@@ -11,64 +11,6 @@ from googletrans import Translator
 #==============================================================================#
 botStart = time.time()
 
-nadya = LINE()
-#nadya = LINE("Exox8KlJJlPb6FuVDonf.K9hUseF6j4f/WE5DLTHHBW.5OsdwFlf150EbB+BGtikhIw7vYGNn4pjvFEJ86jD7o4=")
-#nadya = LINE("Email","Password")
-nadya.log("Auth Token : " + str(nadya.authToken))
-channelToken = nadya.getChannelResult()
-nadya.log("Channel Token : " + str(channelToken))
-
-ki = LINE()
-#ki = LINE("Ey2X4bCWpbehCs5Wc7k9.t2D+Q8GQs5QI1aUzyFPrAq.k0YmfZdnzHbRtGBTmgy8hOMr/Q8MRkdiKy5f0xpUsuw=")
-#ki = LINE("Email","Password")
-ki.log("Auth Token : " + str(ki.authToken))
-channelToken = ki.getChannelResult()
-ki.log("Channel Token : " + str(channelToken))
-
-ki2 = LINE()
-#ki2 = LINE("ExbTWXWNsNaBgCp0Xv35.fj0S/qYKVWGRwpehA8QPbq.+8KLs76Lq91JR/U5WEoCRnWe2mGjLgIk4C0Fyuur4hA=")
-#ki2 = LINE("Email","Password")
-ki2.log("Auth Token : " + str(ki2.authToken))
-channelToken = ki2.getChannelResult()
-ki2.log("Channel Token : " + str(channelToken))
-
-ki3 = LINE()
-#ki3 = LINE("Eygrpxx1Kj4C966K1q09.hBhkoFGOWq2ca/v2aGDfkq.IvKjCjfN8RHg0K6D10m5FVxnLzPDIZVboel+HDRZmLk=")
-#ki3 = LINE("Email","Password")
-ki3.log("Auth Token : " + str(ki3.authToken))
-channelToken = ki3.getChannelResult()
-ki3.log("Channel Token : " + str(channelToken))
-
-ki4 = LINE()
-#ki4 = LINE("EyFRJ6bmcx8bS2zhqei8.wb+1x+ATrwACcZUumYsSUa.pITJ4DluM4zyCd6RD4MPz4M2D+ziA9UbcNKYf38yHlc=")
-#ki4 = LINE("Email","Password")
-ki4.log("Auth Token : " + str(ki4.authToken))
-channelToken = ki4.getChannelResult()
-ki4.log("Channel Token : " + str(channelToken))
-
-
-KAC = [nadya,ki,ki2,ki3,ki4]
-
-nadyaMID = nadya.profile.mid
-kiMID = ki.profile.mid
-ki2MID = ki2.profile.mid
-ki3MID = ki3.profile.mid
-ki4MID = ki4.profile.mid
-
-Bots = [nadyaMID,kiMID,ki2MID,ki3MID,ki4MID]
-creator = ["u93d1ee4847fa27817ec1ee5d96d8616f","u9f09cfcb17d037e2936b751bd9d40ead"]
-Owner = ["u93d1ee4847fa27817ec1ee5d96d8616f"]
-admin = ["u93d1ee4847fa27817ec1ee5d96d8616f"]
-
-nadyaProfile = nadya.getProfile()
-kiProfile = ki.getProfile()
-ki2Profile = ki2.getProfile()
-ki3Profile = ki3.getProfile()
-ki4Profile = ki4.getProfile()
-
-lineSettings = nadya.getSettings()
-kiSettings = ki.getSettings()
-ki2Settings = ki2.getSettings()
 ki3Settings = ki3.getSettings()
 ki4Settings = ki4.getSettings()
 
